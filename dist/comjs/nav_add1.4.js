@@ -31,7 +31,9 @@ define(function(require) {
 					$(".nav_pjname").html(opts.pjname);
 					$(".other_name").html(opts.tea_info.name);
 					tofor($("#navbar .nav"),opts.navli,"lia",opts.navli_active);
+					
 					tonavhtml();
+					
 					//是否显示个人信息
 					if(opts.isinfo){
 						$(".nav_other").removeClass("yc");
@@ -197,6 +199,9 @@ define(function(require) {
 			id.append(thishtml);
 		}
 	};
+
+
+	//这个兼容加样式整理
 	tonavhtml =function(){
 		var leftwidth;
 		if(opts.morebtn)leftwidth=$(".navbtn").outerWidth(true)+$(".nav_pjname").outerWidth(true)+$(".nav_logo").width()+1;
@@ -229,7 +234,8 @@ define(function(require) {
 		}
 	}
 	
-	
+
+
 	
 	//私有方法，检测参数是否合法
     function isValid(options) {

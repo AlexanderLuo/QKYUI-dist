@@ -1,0 +1,29 @@
+<div class="navbar navbar-default navbar-fixed-top app" >
+
+<div class="container-fluid po_r">
+
+    <!--//节点1-->
+    <div class="nav_box clear fl">
+
+        <xmp is="ms-navAppMenu" ms-if="@appMenu"></xmp>
+
+        <div class="nav_logo"><img ms-attr="{src:@logo}"></div>
+        <div class="navline"></div>
+        <div class="nav_pjname">{{@title}}</div>
+        <ul class="nav navbar-nav">
+            <li class="active" ms-for="el in @navList"><a href="#">{{el.name}}</a></li>
+        </ul>
+    </div>
+
+
+    <ul class="nav_other">
+        <xmp is="ms-navMsgTips" ms-if="@msgTips"></xmp>
+        <xmp is="ms-navSelfInfo" ms-if="@selfInfo"></xmp>
+    </ul>
+
+
+</div>
+
+
+</div>
+

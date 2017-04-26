@@ -98,7 +98,7 @@ ul.error_tips li{ padding:4px 0 ; margin:0;}
 .nav_news_box{ position:relative;}
 .nav_news_icon{ position:relative; cursor:pointer;}
 .nav_news_badge{ position:absolute;background:#ff4e4e; top:0px; right:-10px; padding:0 2px;height:16px; min-width:16px; line-height:16px; font-weight:inherit; border-radius:50%;}
-.nav_news_popup{ position:absolute; top:110%; right:-40px; z-index:222; width:400px; background:#fff; border:1px solid #d4d4d4;box-shadow:0 2px 4px 0 rgba(0,0,0,0.09);border-radius:4px; display:none; overflow:hidden;}
+.nav_news_popup{ position:absolute; top:110%; right:-40px; z-index:222; width:400px; background:#fff; border:1px solid #d4d4d4;box-shadow:0 2px 4px 0 rgba(0,0,0,0.09);border-radius:4px; overflow:hidden;}
 .nav_news_popup .scrrol_box{ width:140%;height:100%; overflow-y:scroll; padding-right:40%;}
 .nav_news_libox{ margin-right:-18px;}
 .nav_news_li{ border-bottom:1px solid #e9e9e9; padding:15px;  line-height:24px;}
